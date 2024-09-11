@@ -45,6 +45,7 @@
 
 .col-12{
     width: 100%;
+    padding-top: 2rem;
 }
 
 .btn-blue{
@@ -223,5 +224,9 @@ p.text{
 
 .checklist{
     padding-top: 1rem;
+}
+
+#info-teamoffer{
+    padding: 1rem 0;
 }
 /* #endregion main business */
