@@ -42,4 +42,68 @@
     width: 100%;
 }
 
+.btn-blue{
+    background-color: var(--drop-btn-blue);
+    color: white;
+    padding: 5px 10px;
+    border: 0;
+}
+
+.btn-blue:hover button{
+    opacity: 1;
+    -webkit-animation: flash 1.5s;
+    animation: flash 1.5s;  
+}
+
 /* #endregion utilities */
+
+/* #region header */
+
+header{
+    padding: 1rem;
+}
+
+.left-menu, .right-menu{
+    align-items: center;
+}
+
+.left-menu .link-left{
+    padding-left: 1.5rem;
+}
+
+.right-menu .link-right{
+    padding-right: 1.5rem;
+}
+
+.left-menu a{
+    padding-right: 1rem;
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+
+.right-menu a{
+    padding-left: 1rem;
+    text-decoration: none;
+    color: black;
+    position: relative;
+
+}
+
+div a::before{
+    content: '';
+    position: absolute;
+    bottom: -1rem;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background-color: black;
+    transition: all .3s;
+}
+
+div a:hover::before{
+    width: 100%;
+}
+
+
+/* #endregion header */
