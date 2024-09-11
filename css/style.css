@@ -56,7 +56,7 @@
 }
 
 img{
-    width: 100%;
+    max-width: 100%;
 }
 
 /* #endregion utilities */
@@ -92,11 +92,10 @@ header{
 }
 
 .right-menu a{
-    padding-left: 1rem;
+    padding-right: 1rem;
     text-decoration: none;
     color: black;
     position: relative;
-
 }
 
 div a::before{
