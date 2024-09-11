@@ -47,12 +47,7 @@
     color: white;
     padding: 5px 10px;
     border: 0;
-}
-
-.btn-blue:hover button{
-    opacity: 1;
-    -webkit-animation: flash 1.5s;
-    animation: flash 1.5s;  
+    font-size: 20px;
 }
 
 img{
@@ -64,7 +59,7 @@ img{
 /* #region header */
 
 header{
-    padding: 1rem;
+    padding: 2rem 1rem;
     position: sticky;
     top: 0;
     left: 0;
@@ -74,6 +69,7 @@ header{
 
 .left-menu, .right-menu{
     align-items: center;
+    font-size: 20px;
 }
 
 .left-menu .link-left{
@@ -119,15 +115,30 @@ div a:hover::before{
 
 .jumbotron{
     background-color: var(--drop-bg-section);
-    height: 1000px;
+    height: 900px;
 }
 
 h1{
-    text-align: center;
-    padding: 2rem 0;
+ 
+    padding: 1rem 0;
+    font-size: 130px;
 }
 
 .text{
-    padding: 2rem 0;
+    padding: 3rem 0;
+    font-size: 30px;
+}
+
+p.text{
+    padding-top: 0;
+}
+
+.free{
+    font-size: 30px;
+}
+
+.arrow-down{
+    font-size: 90px;
+    padding-top: 30px;
 }
 /* #endregion main */
