@@ -19,8 +19,13 @@
     justify-content: space-between;
 }
 
-.container{
+.container-big{
     width: 80%;
+    margin: auto;
+}
+
+.container-small{
+    width: 60%;
     margin: auto;
 }
 
@@ -111,7 +116,7 @@ div a:hover::before{
 
 /* #endregion header */
 
-/* #region main */
+/* #region main jumbotron */
 
 .jumbotron{
     background-color: var(--drop-bg-section);
@@ -141,4 +146,82 @@ p.text{
     font-size: 90px;
     padding-top: 30px;
 }
-/* #endregion main */
+/* #endregion main jumbotron */
+
+/* #region main business */
+
+#business-plan{
+    padding-top: 200px;
+}
+
+#business-title{
+    font-size: 40px;
+    padding: 1rem 0;
+}
+
+.checkbox{
+    display: inline-block;
+    padding-top: 3.5rem;
+    padding-bottom: 3rem;
+    padding-right: 2rem;
+    font-size: 30px;
+}
+
+.whom{
+    text-align: center;
+    border: 1px solid lightgray;
+}
+
+.whom span{
+    vertical-align: super;
+}
+
+.card{
+    border: 1px solid lightgray;
+    padding: 2rem 1rem;
+}
+
+.type{
+    font-size: 20px;
+}
+
+.price{
+    padding: 0.5rem 0;
+    font-weight: bold;
+}
+
+.frequence{
+    color: lightgray;
+    padding-bottom: 2rem;
+}
+
+.card span{
+    vertical-align: super;
+
+}
+
+.share{
+    padding-bottom: 2rem;
+}
+
+.btn-card{
+    width: 80%;
+    margin: 0 10%;
+}
+
+.link-buy{
+    padding: 2rem 0;
+}
+
+.card-divider{
+    width: 20%;
+}
+
+.focus-points{
+    padding: 2rem 0;
+}
+
+.checklist{
+    padding-top: 1rem;
+}
+/* #endregion main business */
