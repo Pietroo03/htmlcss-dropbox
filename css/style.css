@@ -9,3 +9,37 @@
     --drop-bg-section: #b4d0e7;
 }
 
+/* #region utilities */
+
+.d-flex{
+    display: flex;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.row{
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.col-4{
+    width: calc((100% / 12) *4);
+    padding: 0.5rem;
+}
+
+.col-8{
+    width: calc((100% / 12) *8);
+}
+
+.col-12{
+    width: 100%;
+}
+
+/* #endregion utilities */
