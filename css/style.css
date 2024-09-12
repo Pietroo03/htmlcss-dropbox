@@ -147,7 +147,7 @@ header{
     position: relative;
 }
 
-div a::before{
+div a:not(.arrow-down)::before{
     content: '';
     position: absolute;
     bottom: -10px;
@@ -169,6 +169,11 @@ div a:hover::before{
 .jumbotron{
     background-color: var(--drop-bg-section);
     height: 900px;
+}
+
+.jumbotron .arrow-down{
+    text-decoration: none;
+    color: black;
 }
 
 h1{
