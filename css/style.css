@@ -206,6 +206,19 @@ p.text{
     padding-bottom: 2rem;
 }
 
+.share img{
+    height: 24px;
+}
+
+.share div, .user div, .folder div{
+    padding-left: 0.5rem;
+    align-content: end;
+}
+
+.user, .folder{
+    padding-bottom: 0.5rem;
+}
+
 .btn-card{
     width: 80%;
     margin: 0 10%;
@@ -227,6 +240,14 @@ p.text{
     padding-top: 1rem;
 }
 
+.checklist img{
+    height: 24px;
+}
+
+.checklist div{
+    padding-left: 0.5rem;
+    align-content: end;
+}
 #info-teamoffer{
     padding: 1rem 0;
 }
