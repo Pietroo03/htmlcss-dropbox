@@ -382,7 +382,7 @@ p.text{
 }
 /* #endregion main teams */
 
-/* #region call-to-action */
+/* #region main call-to-action */
 
 #call-to-action{
     background-color: var(--drop-bg-section);
@@ -396,5 +396,53 @@ p.text{
     margin-top: 1rem;
 }
 
+/* #endregion main call-to-action */
 
-/* #endregion call-to-action */
+/* #region  main questions */
+
+.question{
+    padding: 2rem 0;
+}
+
+#questions .container-title{
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+}
+
+.front-q{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.back-a{
+    display: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.back-arr{
+    display: none
+}
+
+.question:hover .front-q{
+    display: none;
+}
+
+.question:hover .back-a{
+    display: inline-block;
+    padding-top: 50px;
+}
+
+.question:hover .front-arr{
+    display: none;
+}
+
+.question:hover .back-arr{
+    display: inline-block;
+}
+
+#questions hr{
+    border: 2px solid black;
+}
+
+/* #endregion main questions */
