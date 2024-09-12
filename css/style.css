@@ -320,22 +320,24 @@ p.text{
 
 /* #region main teams */
 
-
 .left, .center, .right{
     width: calc((100% / 3) *1);
     flex-wrap: wrap;
 }
 
 .left-logo, .right-logo{
-    width: 350px;
-    height: 350px;
+    width: 50%;
     display: flex;
     align-items: center;
 }
 
 .left-logo img, .right-logo img{
-    aspect-ratio: 2/1;
+    aspect-ratio: 1/1;
     padding: 2rem 1rem;
+}
+
+#teams img:not(#center-title){
+    filter: invert(1);
 }
 
 #designit{
@@ -345,10 +347,10 @@ p.text{
 
 #asu{
     background-color: var(--drop-asu);
+
 }
 
 #florida{
-    padding-left: 3rem;
     background-color: var(--drop-uf);
 }
 
