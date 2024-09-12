@@ -29,6 +29,10 @@
     margin: auto;
 }
 
+.logos{
+    width: 100%;
+}
+
 .row{
     flex-wrap: wrap;
     display: flex;
