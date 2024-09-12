@@ -71,6 +71,12 @@ img{
     max-width: 100%;
 }
 
+.title-img{
+    font-size: 40px;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
 /* #endregion utilities */
 
 /* #region header */
@@ -166,7 +172,7 @@ p.text{
     padding-top: 200px;
 }
 
-#business-title{
+.container-title{
     font-size: 40px;
     padding: 1rem 0;
 }
@@ -269,9 +275,15 @@ p.text{
     padding-top: 50px;
 }
 
-.title-img{
-    font-size: 40px;
-    padding-top: 3rem;
-    padding-bottom: 2rem;
-}
 /* #endregion main partners */
+
+/* #region main operations */
+
+.operations-title{
+    padding: 1rem 0;
+}
+
+.section-operations-title{
+    padding-top: 6rem;
+}
+/* #endregion main operations */
