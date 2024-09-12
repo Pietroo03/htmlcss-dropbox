@@ -54,6 +54,9 @@
     padding: 1rem;
 }
 
+.col{
+    width: calc(100% / 5);
+}
 .col-4{
     width: calc((100% / 12) *4);
 }
@@ -400,6 +403,10 @@ p.text{
 
 /* #region  main questions */
 
+#questions{
+    padding-bottom: 5rem;
+}
+
 .question{
     padding: 2rem 0;
 }
@@ -446,3 +453,38 @@ p.text{
 }
 
 /* #endregion main questions */
+
+/* #region footer */
+
+footer{
+    background-color: black;
+    color: white;
+    padding-bottom: 3rem;
+}
+
+.col a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    line-height: 3rem;
+}
+
+#footer-title{
+    font-size: 30px;
+    padding: 3rem 0;
+}
+
+#white-arrow{
+    color: white;
+}
+
+.language{
+    padding-top: 1rem;
+}
+
+#divider{
+    width: 5%;
+    margin: 2rem 0;
+    margin-left: 10%;
+}
+/* #endregion footer */
