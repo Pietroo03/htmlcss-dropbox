@@ -381,3 +381,20 @@ p.text{
     background-color: var(--drop-clearchannel);
 }
 /* #endregion main teams */
+
+/* #region call-to-action */
+
+#call-to-action{
+    background-color: var(--drop-bg-section);
+}
+
+#call-to-action .container-small{
+    padding: 5rem 0;
+}
+
+#call-to-action button{
+    margin-top: 1rem;
+}
+
+
+/* #endregion call-to-action */
