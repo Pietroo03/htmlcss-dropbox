@@ -35,9 +35,12 @@
     margin: 0 -1rem;
 }
 
+[class^="col-"] {
+    padding: 1rem;
+}
+
 .col-4{
     width: calc((100% / 12) *4);
-    padding: 0.5rem;
 }
 
 .col-8{
@@ -46,7 +49,7 @@
 
 .col-12{
     width: 100%;
-    padding-top: 2rem;
+    padding: 2rem 0rem;
 }
 
 .btn-blue{
@@ -54,6 +57,13 @@
     color: white;
     padding: 5px 10px;
     border: 0;
+    font-size: 20px;
+}
+
+.btn-white{
+    border: 1px solid black;
+    background-color: white;
+    padding: 5px 10px;
     font-size: 20px;
 }
 
@@ -252,3 +262,16 @@ p.text{
     padding: 1rem 0;
 }
 /* #endregion main business */
+
+/* #region main partners */
+
+#partners{
+    padding-top: 50px;
+}
+
+.title-img{
+    font-size: 40px;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+/* #endregion main partners */
