@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+body{
+    
+}
 :root{
     --drop-btn-blue: #0061ff;
     --drop-bg-section: #b4d0e7;
