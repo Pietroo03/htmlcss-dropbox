@@ -166,12 +166,12 @@ div a:hover::before{
 
 /* #region main jumbotron */
 
-.jumbotron{
+#jumbotron{
     background-color: var(--drop-bg-section);
     height: 900px;
 }
 
-.jumbotron .arrow-down{
+#jumbotron .arrow-down{
     text-decoration: none;
     color: black;
 }
