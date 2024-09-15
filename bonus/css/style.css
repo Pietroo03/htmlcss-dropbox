@@ -509,7 +509,7 @@ footer{
     }
 
     #jumbotron{
-        height: 550px;
+        height: 600px;
     }
 
     .text{
@@ -574,6 +574,10 @@ footer{
     .section-operations-title{
         padding-bottom: 4rem;
     }
+
+    .container-big{
+        width: 85%;
+    }
 }
 
 /* #endregion max-width 1440px */
@@ -581,7 +585,7 @@ footer{
 /* #region max-width 1024px */
 
 @media screen and (max-width: 1024px){
-    .left-menu, .right-menu{
+    .left-menu, .right-menu, .btn{
         font-size: 15px;
     }
 
@@ -599,7 +603,108 @@ footer{
     
     .left-menu a {
         padding-right: 0.5rem;
-    }    
+    } 
+    
+    h1 {
+        font-size: 50px;
+        padding: 5px 0;
+    }
+
+    .text {
+        font-size: 15px;
+        padding: 5px 0;
+    }
+
+    #jumbotron {
+        height: 440px;
+    }
+    
+    .arrow-down {
+        font-size: 40px;
+    }
+
+    #business-plan {
+        padding-top: 100px;
+    }
+
+    .checkbox {
+        padding-top: 1rem;
+        padding-bottom: 0.5rem;
+        font-size: 20px;
+    }
+
+    .type{
+        font-size: 18px;
+    }
+
+    .folder, .user, .share, .btn-card, .link-buy, .focus-points {
+        font-size: 15px;
+    }
+    
+    .card{
+        flex-wrap: wrap;
+    }
+
+    #business-plan .col-4{
+        width: calc((100% / 12) *6);
+    }
+
+    .title-img {
+        font-size: 20px;
+        padding-top: 0.5rem;
+        padding-bottom: 10px;
+    }
+
+    #partners .text {
+        padding-bottom: 15px;
+        font-size: 14px;
+    }
+    
+    .section-operations-title {
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+    }
+
+    #call-to-action .container-small {
+        padding: 3rem 0;
+    }
+
+    .container-title {
+        font-size: 30px;
+    }
+    
+    .left-logo img, .right-logo img {
+        aspect-ratio: 1 / 0.8;
+        padding: 1rem 1rem;
+    }
+
+    #center-title {
+        padding: 2rem 2rem;
+    }
+
+    .front-q {
+        font-size: 18px;
+    }
+
+    #footer-title {
+        font-size: 20px;
+        padding: 2rem 0;
+    }
+
+    .col a {
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        line-height: 2rem;
+    }
+
+    .container-big{
+        width: 90%;
+    }
+
+    #divider{
+        margin: 5%;
+    }
 }
 
 /* #endregion max-width 1024px */
